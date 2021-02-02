@@ -66,8 +66,9 @@ getItem(id){
    return this.electron.ipcRenderer.invoke('getItem',id)
 }
 updateCategory(id,name){
-  console.log(id)
-  console.log(name)
   return this.electron.ipcRenderer.invoke('editCat',id,name)
+}
+updateitem(id,data){
+return this.electron.ipcRenderer.invoke('editItem',id,data)
 }
 }

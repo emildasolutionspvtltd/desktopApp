@@ -1,14 +1,11 @@
-{"type":"category","categoryName":"hello","_id":"7v1qcZReIx291EFC"}
-{"type":"category","categoryName":"success","_id":"LtAfe3bz2yUn5wF9"}
+{"type":"category","categoryName":"fvv","_id":"7v1qcZReIx291EFC"}
+{"type":"items","barcode":"lets see","name":"sdfsfs","nameInArabic":"sdfasf","category":"success","mrp":133,"price":111,"tax":"food1","inventory":12323,"unit":"food1","_id":"9p5S4ui3avJ6XF44"}
+{"type":"category","categoryName":"failure","_id":"LtAfe3bz2yUn5wF9"}
 {"type":"category","categoryName":"ghghgh","_id":"RM6nLi6hyJmL4ebC"}
 {"type":"category","categoryName":"change","_id":"RUgvX1r1sOdu0u0u"}
 {"type":"category","categoryName":"hope2","_id":"aAI4zXrQ1ZkaSlAe"}
-{"type":"items","barcode":"dfdf","name":"dfdf","nameInArabic":"dfsdf","category":"600","mrp":2,"price":2,"tax":"food1","inventory":2,"unit":"food1","_id":"ebkeZdAx8OCF5yoq"}
+{"type":"items","barcode":"sdfasdf","name":"sucess","nameInArabic":"sdfasf","category":"success","mrp":133,"price":111,"tax":"food1","inventory":12323,"unit":"food1","_id":"gVEbVcTk8WX8iF1X"}
 {"type":"items","barcode":"fgdfbg","name":"fdgdfg","nameInArabic":"fdgdsfg","category":"ghjg","mrp":3456456,"price":45646,"tax":"food1","inventory":4646,"unit":"food1","_id":"jcOIUqQswFpI0m6k"}
 {"type":"items","barcode":"zccx","name":"ccc","nameInArabic":"dcac","category":"help","mrp":2414,"price":12341,"tax":"food1","inventory":1234,"unit":"food1","_id":"rx4IA9hCjHxflbU7"}
-{"$$deleted":true,"_id":"ebkeZdAx8OCF5yoq"}
-{"type":"items","barcode":"sdfasdf","name":"sdfsfs","nameInArabic":"sdfasf","category":"success","mrp":133,"price":111,"tax":"food1","inventory":12323,"unit":"food1","_id":"9p5S4ui3avJ6XF44"}
-{"type":"items","barcode":"sdfasdf","name":"sdfsfs","nameInArabic":"sdfasf","category":"success","mrp":133,"price":111,"tax":"food1","inventory":12323,"unit":"food1","_id":"1o92FYYxu6Oxg56D"}
-{"type":"items","barcode":"sdfasdf","name":"sdfsfs","nameInArabic":"sdfasf","category":"success","mrp":133,"price":111,"tax":"food1","inventory":12323,"unit":"food1","_id":"gVEbVcTk8WX8iF1X"}
-{"type":"category","categoryName":"failure","_id":"LtAfe3bz2yUn5wF9"}
-{"$$deleted":true,"_id":"1o92FYYxu6Oxg56D"}
+{"type":"items","barcode":"dasf","name":"sdfs","nameInArabic":"asds","category":"fvv","mrp":4,"price":2,"tax":"food1","inventory":1,"unit":"food1","_id":"hMsooHnawaKKjz3y"}
+{"type":"category","categoryName":"ergsrtg","_id":"5rFFXaT1j6XQaVBO"}

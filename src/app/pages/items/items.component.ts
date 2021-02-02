@@ -54,25 +54,37 @@ this.getCountCategory()
     //try
 
 
-    await this.dialog.open(AddSingleItemComponent,{
+    const dialogRef = await this.dialog.open(AddSingleItemComponent,{
       maxWidth:'450px',
       width:'90%',
       panelClass:'dialogCss'
     })
-
+    dialogRef.afterClosed().subscribe(result => {
+      this.getAllCategory()
+    this.getTabelAllItems()
+      console.log('The dialog was closed');
+    });
   }
   async routeToBulk(){
  
 
-    await this.dialog.open(AddItemsBulkComponent)
+    const dialogRef =  await this.dialog.open(AddItemsBulkComponent)
 
-
+    dialogRef.afterClosed().subscribe(result => {
+      this.getAllCategory()
+    this.getTabelAllItems()
+      console.log('The dialog was closed');
+    });
   }
   async routeToCategory(){
 
 
-    await this.dialog.open(AddItemsCategoryComponent)
-
+    const dialogRef =  await this.dialog.open(AddItemsCategoryComponent)
+    dialogRef.afterClosed().subscribe(result => {
+      this.getAllCategory()
+    this.getTabelAllItems()
+      console.log('The dialog was closed');
+    });
   }
 
 

@@ -100,6 +100,7 @@ this.getAllCategory()
     if(this.itemForm.valid){
       this.db.insertSingleItem(this.itemForm.value).then(x=>{
         console.log(x)
+        this.secService.presentSanckBar("👍 Item added Successfully",'success')
       })
     }else{
       //toast service 

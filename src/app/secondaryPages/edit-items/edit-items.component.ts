@@ -79,14 +79,15 @@ export class EditItemsComponent implements OnInit {
    this.dialog.closeAll()
  }
  submit(){
-
-  // if(this.itemForm.valid){
-  //   this.db.insertSingleItem(this.itemForm.value).then(x=>{
-  //     console.log(x)
-  //   })
-  // }else{
-  //   //toast service 
-  // }
+console.log(this.itemForm.value)
+  if(this.itemForm.valid){
+    this.db.updateitem(this.data,this.itemForm.value).then(x=>{
+      console.log(x)
+      this.secService.presentSanckBar("👍 Item Updated Successfully",'success')
+    })
+  }else{
+    console.log("not working") 
+  }
 }
 
 }

@@ -113,8 +113,23 @@ ipcMain.handle('categoryCount', async(event)=>{
     return db.find({_id : id}, function(err, docs){
 
     })
+
+
    })
 
 
+ipcMain.handle('editItem', async(event,id,data)=>{
+    console.log(data)
+    return db.update({ _id: id },{ $set: { barcode: data.barcode, 
+                                           name : data.name,
+                                           nameInArabic : data.nameInArabic,
+                                           category :data.category,
+                                           mrp:data.mrp,
+                                           price: data.price,
+                                           tax : data.tax,
+                                           inventory : data.inventory,
+                                           unit : data.unit
+                                        } },{}, function (err, numReplaced) {
 
-
+      });
+   })
