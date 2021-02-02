@@ -1,0 +1,46 @@
+<div class="container">
+    <div fxLayout='row' fxLayoutAlign='space-between center' class="headingContainer">
+        <h3 class="heading3">Add Discount</h3>
+        <button (click)='closeDialog()' mat-icon-button>
+            <mat-icon>highlight_off</mat-icon>
+        </button>
+    </div>
+<div fxLayout='row' fxLayoutAlign='space-between center' fxLayoutGap='5px'>
+    <mat-form-field class='discountInput'  appearance="outline">
+        <input cdk-focus-start  autofocus matInput>
+
+      </mat-form-field>
+
+      <mat-button-toggle-group appearance="legacy"  style='height: 60px;' name="fontStyle" aria-label="Font Style">
+        <mat-button-toggle value="bold">%</mat-button-toggle>
+        <mat-button-toggle value="italic">SAR</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+
+<br>
+      <div fxLayout=' row wrap' fxLayoutAlign='space-between center' class="buttonHolder">
+
+<button fxFlex='30' mat-raised-button>1</button>
+<button fxFlex='30' mat-raised-button>2</button>
+<button fxFlex='30' mat-raised-button>3</button>
+<button fxFlex='30' mat-raised-button>4</button>
+<button fxFlex='30' mat-raised-button>5</button>
+<button fxFlex='30' mat-raised-button>6</button>
+<button fxFlex='30' mat-raised-button>7</button>
+
+<button fxFlex='30' mat-raised-button>8</button>
+
+<button fxFlex='30' mat-raised-button>9</button>
+<button fxFlex='30'mat-raised-button>.</button>
+<button fxFlex='30' mat-raised-button>0</button>
+
+<button fxFlex='30' mat-raised-button><mat-icon>backspace</mat-icon></button>
+
+
+
+
+
+
+
+      </div>
+</div>
