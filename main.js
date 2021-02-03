@@ -1,4 +1,10 @@
 const {app,ipcMain,ipcRenderer, BrowserWindow,} = require('electron');
+const Datastore = require('nedb-promises')
+const db = Datastore.create('pos.db')
+const path =  require('path');
+const { electron } = require('process');
+
+
 let win;
 function createWindow (){
     win = new BrowserWindow({
@@ -31,10 +37,6 @@ app.on('activate',function(){
     }
 })
 
-const Datastore = require('nedb-promises')
-const db = Datastore.create('pos.db')
-const path =  require('path');
-const { electron } = require('process');
 
   //Category Functions
   // doesnt require to make the function just the name assignecd to it 
